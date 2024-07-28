@@ -62,7 +62,7 @@ header {
     font-size: 1.25em;
 }
 
-
+/* Desktop view */
 @media (min-width: 992px) {
     .section {
         float: left;
@@ -75,7 +75,7 @@ header {
     }
 }
 
-
+/* Tablet view */
 @media (min-width: 768px) and (max-width: 991px) {
     .section {
         float: left;
@@ -92,7 +92,7 @@ header {
     }
 }
 
-
+/* Mobile view */
 @media (max-width: 767px) {
     .section {
         width: 100%;
